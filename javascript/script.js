@@ -2,8 +2,7 @@ $(document).ready(function(){
     $('.carousel').carousel({
         fullWidth: true,
         indicators: true,
-        duration: 500,
-        dist: -400
+        duration: 500
     });
     autoplay()
     function autoplay(){
@@ -11,15 +10,3 @@ $(document).ready(function(){
         setTimeout(autoplay, 4500);
     }
 });
-
-
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     var elems = document.querySelectorAll('.carousel');
-//     // var instance = M.Carousel.getInstance(elem);
-//     var instance = M.Carousel.init({
-//         fullWidth: true,
-//         indicators: true,
-//         duration: 300
-//       });
-// });

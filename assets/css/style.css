@@ -1,3 +1,27 @@
+nav {
+    background-color: grey;
+    height: 250px;
+}
+
+ul.right {
+    color: black;
+}
+li {
+    color: black;
+}
+
+a {
+    color: black;
+}
 .carousel {
     height: 200px;
+}
+
+.brand-logo {
+    height:50px;
+}
+
+#logo {
+    height: 200px;
+    margin-top: 25px;
 }
