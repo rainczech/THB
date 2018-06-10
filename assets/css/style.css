@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Greenstone;
+    src: url("./font/GreenstoneScriptBold-Regular.otf") format("opentype");
+}
+h1{
+    font-family: Greenstone, script;
+}
 nav {
     background-color: white;
 }
@@ -12,7 +19,10 @@ nav {
     height: 500px;
   }
 
-
+a.brand-logo {
+    color: black;
+    font-family: Greenstone;
+}
 /* .carousel {
     height: 200px;
 } */
@@ -25,3 +35,5 @@ nav {
     height: 200px;
     margin-top: 25px;
 } */
+
+/* font-family: 'Lato', sans-serif; */
