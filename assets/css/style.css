@@ -1,27 +1,27 @@
 nav {
-    background-color: grey;
-    height: 250px;
+    background-color: white;
 }
 
-ul.right {
-    color: black;
-}
-li {
+ nav ul a {
     color: black;
 }
 
-a {
-    color: black;
-}
-.carousel {
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+  }
+
+
+/* .carousel {
     height: 200px;
-}
+} */
 
 .brand-logo {
     height:50px;
 }
 
-#logo {
+/* #logo {
     height: 200px;
     margin-top: 25px;
-}
+} */
