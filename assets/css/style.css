@@ -14,6 +14,9 @@ nav {
     font-family: 'lato', sans-serif;
 }
 
+a {
+    color: black;
+}
 
 input, option, label, button {
     font-family: 'Lato', sans-serif;
