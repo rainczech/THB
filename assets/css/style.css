@@ -19,6 +19,11 @@ input, option, label, button {
     font-family: 'Lato', sans-serif;
 }
 
+li {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
 .waves-effect {
     background-color: maroon;
     margin-top: 20px;
@@ -29,7 +34,9 @@ input, option, label, button {
     font-family: 'Lato', sans-serif;
 }
 
-
+i.material-icons {
+    color: maroon;
+}
 
 p {
     font-family: 'Lato', sans-serif;
