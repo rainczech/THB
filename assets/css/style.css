@@ -43,7 +43,7 @@ i.material-icons {
 
 p {
     font-family: 'Lato', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 footer {
@@ -72,9 +72,27 @@ a.brand-logo {
     font-size: 32px;
 }
 
+.btn:hover, .btn-large:hover, .btn-small:hover {
+    background-color: #08324D;
+ }
 
+input[type=text]:not(.browser-default):focus:not([readonly])+label {
+    color: maroon;
+}
 
+.input-field input:focus {
+    border-bottom: 1px solid maroon !important;
+    box-shadow: 0 1px 0 0 white !important
+  }
 
+.question {
+    font-family: Greenstone;
+    font-size: 20px;
+}
 
+.answer {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
 
 /* font-family: 'Lato', sans-serif; */
