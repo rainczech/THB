@@ -87,7 +87,8 @@ input[type=text]:not(.browser-default):focus:not([readonly])+label {
 
 .question {
     font-family: Greenstone;
-    font-size: 20px;
+    font-size: 22px;
+    color: #08324D;
 }
 
 .answer {
