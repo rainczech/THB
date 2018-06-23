@@ -12,6 +12,7 @@ nav {
  nav ul a {
     color: black;
     font-family: 'lato', sans-serif;
+    font-size: 18px;
 }
 
 a {
@@ -44,6 +45,7 @@ i.material-icons {
 p {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
+    line-height: 1.25;
 }
 
 footer {
@@ -77,11 +79,11 @@ a.brand-logo {
  }
 
 input[type=text]:not(.browser-default):focus:not([readonly])+label {
-    color: maroon;
+    color: #08324D;
 }
 
 .input-field input:focus {
-    border-bottom: 1px solid maroon !important;
+    border-bottom: 1px solid #08324D !important;
     box-shadow: 0 1px 0 0 white !important
   }
 
@@ -95,5 +97,19 @@ input[type=text]:not(.browser-default):focus:not([readonly])+label {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
 }
+
+
+@media screen and (max-width: 900px) {
+    a.brand-logo {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    a.brand-logo {
+        font-size: 12px;
+    }
+}
+
 
 /* font-family: 'Lato', sans-serif; */
