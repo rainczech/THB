@@ -68,6 +68,14 @@ footer {
     height: 500px;
   }
 
+  a.offset { 
+    display: block; 
+    position: relative;
+  	height: 50px;      
+    margin-top: -50px;
+    visibility: hidden; 
+}
+  
 a.brand-logo {
     color: maroon;
     font-family: Greenstone;
