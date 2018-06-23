@@ -4,7 +4,3 @@ $(document).ready(function(){
     $('.sidenav').sidenav();
     $('select').formSelect();
   });
-
-// $(.IG) {
-//   var queryURL = ""
-// }
