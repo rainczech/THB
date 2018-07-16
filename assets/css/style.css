@@ -106,6 +106,9 @@ input[type=text]:not(.browser-default):focus:not([readonly])+label {
     font-size: 18px;
 }
 
+.parallax-container .parallax-img {
+    min-height: 50% !important;
+}
 
 @media screen and (max-width: 900px) {
     a.brand-logo {
@@ -118,10 +121,3 @@ input[type=text]:not(.browser-default):focus:not([readonly])+label {
         font-size: 12px;
     }
 }
-    /* .parallax-img {
-
-    }
-} */
-
-
-/* font-family: 'Lato', sans-serif; */
