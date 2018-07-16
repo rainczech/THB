@@ -118,6 +118,10 @@ input[type=text]:not(.browser-default):focus:not([readonly])+label {
         font-size: 12px;
     }
 }
+    /* .parallax-img {
+
+    }
+} */
 
 
 /* font-family: 'Lato', sans-serif; */
